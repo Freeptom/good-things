@@ -1,0 +1,32 @@
+.how-can-we-help {
+  background: var(--clr-gray);
+  &__form {
+    justify-content: center;
+    background: var(--clr-white);
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  &__selection {
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    select {
+      text-decoration: underline;
+      border: 0;
+      color: var(--clr-blue);
+      font-weight: 600;
+    }
+    @media screen and (min-width: 768px) {
+      gap: 0;
+    }
+  }
+  &__form,
+  &__selection {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}

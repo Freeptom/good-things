@@ -1,0 +1,22 @@
+.programme-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.programme-item {
+  color: var(--clr-black);
+  background: var(--clr-white);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  &__title {
+    font-weight: 700;
+  }
+}

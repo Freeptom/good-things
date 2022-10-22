@@ -1,0 +1,29 @@
+@import "base";
+@import "reset";
+@import "navigation";
+@import "button";
+@import "programmes";
+@import "home/hero";
+@import "home/who-we-are";
+@import "home/how-can-we-help";
+@import "home/what-we-do";
+
+.wrapper {
+  margin: 0 auto;
+  max-width: var(--outer-max-width);
+}
+
+.section-padding {
+  padding: var(--section-padding);
+}
+
+h2 {
+  font-weight: 800;
+  margin-bottom: 1rem;
+  &--text-dark {
+    color: var(--color-heading--dark);
+  }
+  &--text-light {
+    color: var(--color-heading--light);
+  }
+}

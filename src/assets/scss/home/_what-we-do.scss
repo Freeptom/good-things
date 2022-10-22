@@ -1,0 +1,9 @@
+.what-we-do {
+  background: var(--clr-blue);
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  &__additional-cta {
+    margin: 2rem auto 0 auto;
+  }
+}

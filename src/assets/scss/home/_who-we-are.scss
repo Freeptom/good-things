@@ -1,0 +1,20 @@
+.who-we-are {
+  display: grid;
+  grid-template-columns: 1fr;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  &__image {
+    object-fit: cover;
+    height: 100%;
+  }
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: var(--clr-green);
+    color: var(--color-body-light);
+  }
+}
