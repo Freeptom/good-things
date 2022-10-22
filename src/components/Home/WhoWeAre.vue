@@ -11,15 +11,15 @@ import ButtonLink from "@/components/functional/ButtonLink.vue";
     />
 
     <div class="who-we-are__details section-padding">
-      <h2>We are a social change charity, helping people to improve their lives through digital.</h2>
+      <h2>
+        We are a social change charity, helping people to improve their lives
+        through digital.
+      </h2>
       <p>
-        We tackle the most pressing issues of our time, working with partners in thousands of communities across the UK
-        and further afield..
+        We tackle the most pressing issues of our time, working with partners in
+        thousands of communities across the UK and further afield..
       </p>
-      <button-link
-        outlined-light
-        rounded
-        text-light
+      <button-link outlined-light rounded text-light
         >Learn more about us</button-link
       >
     </div>
