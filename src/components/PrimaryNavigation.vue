@@ -1,9 +1,19 @@
 <template>
   <div class="primary-nav-container">
-    <img class="logo" src="@/assets/images/logo.png" alt="Good Things" />
-    <nav aria-label="Primary" class="primary-nav">
+    <img
+      class="logo"
+      src="@/assets/images/logo.png"
+      alt="Good Things"
+    />
+    <nav
+      aria-label="Primary"
+      class="primary-nav"
+    >
       <ul role="list">
-        <li v-for="route in primaryRoutes" :key="route.name">
+        <li
+          v-for="route in primaryRoutes"
+          :key="route.name"
+        >
           <a :href="route.link">{{ route.name }}</a>
         </li>
       </ul>

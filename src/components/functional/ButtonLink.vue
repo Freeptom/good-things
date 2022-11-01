@@ -1,7 +1,7 @@
 <template>
   <router-link
-    class="button"
     v-if="url"
+    class="button"
     :to="url"
     :class="{
       'button--rounded': rounded,

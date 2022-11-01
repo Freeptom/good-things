@@ -13,13 +13,14 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "sass": "^1.55.0",
     "@rushstack/eslint-patch": "^1.1.0",
     "@vitejs/plugin-vue": "^3.0.1",
+    "eslint-config-prettier": "^8.5.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^9.0.0",
     "prettier": "^2.5.1",
+    "sass": "^1.55.0",
     "vite": "^3.0.1"
   }
 }

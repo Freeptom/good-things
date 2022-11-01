@@ -37,13 +37,13 @@ const want = computed({
     <form class="how-can-we-help__form">
       <div class="how-can-we-help__selection">
         I am
-        <select v-model="who" name="who" id="who">
+        <select id="who" v-model="who" name="who">
           <option v-for="(option, index) in whoOptions" :key="index">
             {{ option }}
           </option>
         </select>
         and I want
-        <select v-model="want" name="want" id="want">
+        <select id="want" v-model="want" name="want">
           <option v-for="(option, index) in wantOptions" :key="index">
             {{ option }}
           </option>

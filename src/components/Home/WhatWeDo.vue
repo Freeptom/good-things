@@ -34,7 +34,7 @@ const programmes = computed(() => store.state.programmes);
       url="/"
       rounded
       text-accent
-      onLight
+      on-light
       >More about what we do</button-link
     >
   </section>
